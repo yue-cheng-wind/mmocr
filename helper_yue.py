@@ -3,9 +3,9 @@ from mmcv import Config
 # cfg = Config.fromfile('./configs/textrecog/crnn/crnn_toy_dataset.py')
 # cfg = Config.fromfile('./configs/textrecog/nrtr/nrtr_modality_transform_toy_dataset.py')
 # cfg = Config.fromfile('./configs/textrecog/robust_scanner/robustscanner_r31_toy_dataset.py')
-# cfg = Config.fromfile('./configs/textrecog/satrn/satrn_small_toy_dataset.py')
-cfg = Config.fromfile('./configs/textrecog/abinet/abinet_academic_toy_dataset.py')
-
+cfg = Config.fromfile('./configs/textrecog/satrn/satrn_small_toy_dataset.py')
+# cfg = Config.fromfile('./configs/textrecog/abinet/abinet_academic_toy_dataset.py')
+# cfg = Config.fromfile('./configs/textrecog/abinet/abinet_vision_only_toy_dataset.py')
 
 
 from mmdet.apis import set_random_seed

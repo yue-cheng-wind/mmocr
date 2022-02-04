@@ -7,7 +7,7 @@ _base_ = [
     # '../../_base_/recog_datasets/ST_MJ_alphanumeric_train.py', # word level annotation
     # '../../_base_/recog_datasets/academic_test.py'
 
-    '../../_base_/recog_datasets/toy_data.py'
+    '../../_base_/recog_datasets/toy_data_lmdb.py'
 
 ]
 
