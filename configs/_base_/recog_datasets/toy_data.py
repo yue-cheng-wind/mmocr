@@ -19,7 +19,7 @@ train1 = dict(
     pipeline=None,
     test_mode=False)
 
-train_anno_file2 = f'{root}/label.lmdb'
+train_anno_file2 = f'{root}/label1.lmdb'
 train2 = dict(
     type=dataset_type,
     img_prefix=img_prefix,
@@ -35,7 +35,7 @@ train2 = dict(
     pipeline=None,
     test_mode=False)
 
-test_anno_file1 = f'{root}/label.lmdb'
+test_anno_file1 = f'{root}/label1.lmdb'
 test = dict(
     type=dataset_type,
     img_prefix=img_prefix,
