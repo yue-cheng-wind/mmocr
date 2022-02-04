@@ -1,0 +1,396 @@
+2022-02-04 01:07:42,461 - mmocr - INFO - Start running, host: root@6814eba80048, work_dir: /mmocr/demo/tutorial_exps
+2022-02-04 01:07:42,462 - mmocr - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) OptimizerHook                      
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2022-02-04 01:07:42,464 - mmocr - INFO - workflow: [('train', 1)], max: 5 epochs
+2022-02-04 01:07:42,466 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-04 01:29:01,019 - mmocr - INFO - Start running, host: root@6814eba80048, work_dir: /mmocr/demo/tutorial_exps
+2022-02-04 01:29:01,021 - mmocr - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) OptimizerHook                      
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2022-02-04 01:29:01,023 - mmocr - INFO - workflow: [('train', 1)], max: 5 epochs
+2022-02-04 01:29:01,025 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-04 01:29:08,068 - mmocr - INFO - Epoch [1][40/200]	lr: 1.250e-04, eta: 0:02:48, time: 0.176, data_time: 0.054, memory: 1819, loss_ce: 2.9852, loss: 2.9852
+2022-02-04 01:29:12,928 - mmocr - INFO - Epoch [1][80/200]	lr: 1.250e-04, eta: 0:02:16, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 1.7212, loss: 1.7212
+2022-02-04 01:29:17,770 - mmocr - INFO - Epoch [1][120/200]	lr: 1.250e-04, eta: 0:02:02, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 1.0717, loss: 1.0717
+2022-02-04 01:29:22,624 - mmocr - INFO - Epoch [1][160/200]	lr: 1.250e-04, eta: 0:01:53, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.6785, loss: 0.6785
+2022-02-04 01:29:27,470 - mmocr - INFO - Epoch [1][200/200]	lr: 1.250e-04, eta: 0:01:45, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.5015, loss: 0.5015
+2022-02-04 01:29:27,515 - mmocr - INFO - Saving checkpoint at 1 epochs
+2022-02-04 01:29:31,752 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:29:31,761 - mmocr - INFO - Epoch(val) [1][1]	0_word_acc: 0.8750, 0_word_acc_ignore_case: 0.8750, 0_word_acc_ignore_case_symbol: 0.8750, 0_char_recall: 0.8710, 0_char_precision: 0.9643, 0_1-N.E.D: 0.9167
+2022-02-04 01:29:38,764 - mmocr - INFO - Epoch [2][40/200]	lr: 1.250e-04, eta: 0:01:45, time: 0.174, data_time: 0.055, memory: 1819, loss_ce: 0.4076, loss: 0.4076
+2022-02-04 01:29:43,623 - mmocr - INFO - Epoch [2][80/200]	lr: 1.250e-04, eta: 0:01:38, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.3646, loss: 0.3646
+2022-02-04 01:29:48,494 - mmocr - INFO - Epoch [2][120/200]	lr: 1.250e-04, eta: 0:01:31, time: 0.122, data_time: 0.002, memory: 1819, loss_ce: 0.3291, loss: 0.3291
+2022-02-04 01:29:53,361 - mmocr - INFO - Epoch [2][160/200]	lr: 1.250e-04, eta: 0:01:25, time: 0.122, data_time: 0.002, memory: 1819, loss_ce: 0.3162, loss: 0.3162
+2022-02-04 01:29:58,229 - mmocr - INFO - Epoch [2][200/200]	lr: 1.250e-04, eta: 0:01:19, time: 0.122, data_time: 0.002, memory: 1819, loss_ce: 0.2840, loss: 0.2840
+2022-02-04 01:29:58,298 - mmocr - INFO - Saving checkpoint at 2 epochs
+2022-02-04 01:30:02,300 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:30:02,303 - mmocr - INFO - Epoch(val) [2][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:30:09,304 - mmocr - INFO - Epoch [3][40/200]	lr: 1.250e-04, eta: 0:01:16, time: 0.174, data_time: 0.055, memory: 1819, loss_ce: 0.2910, loss: 0.2910
+2022-02-04 01:30:14,159 - mmocr - INFO - Epoch [3][80/200]	lr: 1.250e-04, eta: 0:01:10, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2704, loss: 0.2704
+2022-02-04 01:30:19,019 - mmocr - INFO - Epoch [3][120/200]	lr: 1.250e-04, eta: 0:01:04, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2515, loss: 0.2515
+2022-02-04 01:30:23,872 - mmocr - INFO - Epoch [3][160/200]	lr: 1.250e-04, eta: 0:00:58, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2626, loss: 0.2626
+2022-02-04 01:30:28,730 - mmocr - INFO - Epoch [3][200/200]	lr: 1.250e-04, eta: 0:00:52, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2635, loss: 0.2635
+2022-02-04 01:30:28,825 - mmocr - INFO - Saving checkpoint at 3 epochs
+2022-02-04 01:30:32,657 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:30:32,660 - mmocr - INFO - Epoch(val) [3][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:30:39,678 - mmocr - INFO - Epoch [4][40/200]	lr: 1.250e-05, eta: 0:00:48, time: 0.175, data_time: 0.055, memory: 1819, loss_ce: 0.2527, loss: 0.2527
+2022-02-04 01:30:44,536 - mmocr - INFO - Epoch [4][80/200]	lr: 1.250e-05, eta: 0:00:42, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2261, loss: 0.2261
+2022-02-04 01:30:49,393 - mmocr - INFO - Epoch [4][120/200]	lr: 1.250e-05, eta: 0:00:37, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2551, loss: 0.2551
+2022-02-04 01:30:54,244 - mmocr - INFO - Epoch [4][160/200]	lr: 1.250e-05, eta: 0:00:31, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2685, loss: 0.2685
+2022-02-04 01:30:59,101 - mmocr - INFO - Epoch [4][200/200]	lr: 1.250e-05, eta: 0:00:26, time: 0.121, data_time: 0.002, memory: 1819, loss_ce: 0.2160, loss: 0.2160
+2022-02-04 01:30:59,194 - mmocr - INFO - Saving checkpoint at 4 epochs
+2022-02-04 01:31:03,026 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:31:03,029 - mmocr - INFO - Epoch(val) [4][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:31:10,053 - mmocr - INFO - Epoch [5][40/200]	lr: 1.250e-06, eta: 0:00:21, time: 0.175, data_time: 0.055, memory: 1819, loss_ce: 0.2588, loss: 0.2588
+2022-02-04 01:31:14,917 - mmocr - INFO - Epoch [5][80/200]	lr: 1.250e-06, eta: 0:00:16, time: 0.122, data_time: 0.002, memory: 1819, loss_ce: 0.2699, loss: 0.2699
+2022-02-04 01:31:19,784 - mmocr - INFO - Epoch [5][120/200]	lr: 1.250e-06, eta: 0:00:10, time: 0.122, data_time: 0.002, memory: 1819, loss_ce: 0.2413, loss: 0.2413
+2022-02-04 01:31:24,648 - mmocr - INFO - Epoch [5][160/200]	lr: 1.250e-06, eta: 0:00:05, time: 0.122, data_time: 0.002, memory: 1819, loss_ce: 0.2605, loss: 0.2605
+2022-02-04 01:31:29,513 - mmocr - INFO - Epoch [5][200/200]	lr: 1.250e-06, eta: 0:00:00, time: 0.122, data_time: 0.002, memory: 1819, loss_ce: 0.2311, loss: 0.2311
+2022-02-04 01:31:29,593 - mmocr - INFO - Saving checkpoint at 5 epochs
+2022-02-04 01:31:33,354 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:31:33,356 - mmocr - INFO - Epoch(val) [5][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:49:23,122 - mmocr - INFO - Start running, host: root@6814eba80048, work_dir: /mmocr/demo/tutorial_exps
+2022-02-04 01:49:23,124 - mmocr - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) OptimizerHook                      
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2022-02-04 01:49:23,125 - mmocr - INFO - workflow: [('train', 1)], max: 5 epochs
+2022-02-04 01:49:23,127 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-04 01:49:30,168 - mmocr - INFO - Epoch [1][40/200]	lr: 1.250e-04, eta: 0:02:48, time: 0.176, data_time: 0.055, memory: 2928, loss_ce: 2.9916, loss: 2.9916
+2022-02-04 01:49:35,040 - mmocr - INFO - Epoch [1][80/200]	lr: 1.250e-04, eta: 0:02:16, time: 0.122, data_time: 0.002, memory: 2928, loss_ce: 1.6417, loss: 1.6417
+2022-02-04 01:49:39,900 - mmocr - INFO - Epoch [1][120/200]	lr: 1.250e-04, eta: 0:02:02, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 1.0319, loss: 1.0319
+2022-02-04 01:49:44,742 - mmocr - INFO - Epoch [1][160/200]	lr: 1.250e-04, eta: 0:01:53, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.6574, loss: 0.6574
+2022-02-04 01:49:49,599 - mmocr - INFO - Epoch [1][200/200]	lr: 1.250e-04, eta: 0:01:45, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.5257, loss: 0.5257
+2022-02-04 01:49:49,682 - mmocr - INFO - Saving checkpoint at 1 epochs
+2022-02-04 01:49:53,355 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:49:53,358 - mmocr - INFO - Epoch(val) [1][1]	0_word_acc: 0.7500, 0_word_acc_ignore_case: 0.7500, 0_word_acc_ignore_case_symbol: 0.7500, 0_char_recall: 0.9355, 0_char_precision: 0.9062, 0_1-N.E.D: 0.8819
+2022-02-04 01:50:00,362 - mmocr - INFO - Epoch [2][40/200]	lr: 1.250e-04, eta: 0:01:45, time: 0.175, data_time: 0.055, memory: 2928, loss_ce: 0.4372, loss: 0.4372
+2022-02-04 01:50:05,225 - mmocr - INFO - Epoch [2][80/200]	lr: 1.250e-04, eta: 0:01:38, time: 0.122, data_time: 0.002, memory: 2928, loss_ce: 0.3671, loss: 0.3671
+2022-02-04 01:50:10,083 - mmocr - INFO - Epoch [2][120/200]	lr: 1.250e-04, eta: 0:01:31, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.3395, loss: 0.3395
+2022-02-04 01:50:14,942 - mmocr - INFO - Epoch [2][160/200]	lr: 1.250e-04, eta: 0:01:25, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.3372, loss: 0.3372
+2022-02-04 01:50:19,802 - mmocr - INFO - Epoch [2][200/200]	lr: 1.250e-04, eta: 0:01:19, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2919, loss: 0.2919
+2022-02-04 01:50:19,900 - mmocr - INFO - Saving checkpoint at 2 epochs
+2022-02-04 01:50:23,563 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:50:23,566 - mmocr - INFO - Epoch(val) [2][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:50:30,715 - mmocr - INFO - Epoch [3][40/200]	lr: 1.250e-04, eta: 0:01:16, time: 0.178, data_time: 0.056, memory: 2928, loss_ce: 0.2936, loss: 0.2936
+2022-02-04 01:50:35,578 - mmocr - INFO - Epoch [3][80/200]	lr: 1.250e-04, eta: 0:01:10, time: 0.122, data_time: 0.002, memory: 2928, loss_ce: 0.2719, loss: 0.2719
+2022-02-04 01:50:40,428 - mmocr - INFO - Epoch [3][120/200]	lr: 1.250e-04, eta: 0:01:04, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.3435, loss: 0.3435
+2022-02-04 01:50:45,293 - mmocr - INFO - Epoch [3][160/200]	lr: 1.250e-04, eta: 0:00:58, time: 0.122, data_time: 0.002, memory: 2928, loss_ce: 0.3213, loss: 0.3213
+2022-02-04 01:50:50,141 - mmocr - INFO - Epoch [3][200/200]	lr: 1.250e-04, eta: 0:00:52, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.3136, loss: 0.3136
+2022-02-04 01:50:50,217 - mmocr - INFO - Saving checkpoint at 3 epochs
+2022-02-04 01:50:53,994 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:50:53,997 - mmocr - INFO - Epoch(val) [3][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:51:01,005 - mmocr - INFO - Epoch [4][40/200]	lr: 1.250e-05, eta: 0:00:48, time: 0.175, data_time: 0.055, memory: 2928, loss_ce: 0.2725, loss: 0.2725
+2022-02-04 01:51:05,861 - mmocr - INFO - Epoch [4][80/200]	lr: 1.250e-05, eta: 0:00:42, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2393, loss: 0.2393
+2022-02-04 01:51:10,714 - mmocr - INFO - Epoch [4][120/200]	lr: 1.250e-05, eta: 0:00:37, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2720, loss: 0.2720
+2022-02-04 01:51:15,560 - mmocr - INFO - Epoch [4][160/200]	lr: 1.250e-05, eta: 0:00:31, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2815, loss: 0.2815
+2022-02-04 01:51:20,410 - mmocr - INFO - Epoch [4][200/200]	lr: 1.250e-05, eta: 0:00:26, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2281, loss: 0.2281
+2022-02-04 01:51:20,488 - mmocr - INFO - Saving checkpoint at 4 epochs
+2022-02-04 01:51:24,215 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:51:24,217 - mmocr - INFO - Epoch(val) [4][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:51:31,217 - mmocr - INFO - Epoch [5][40/200]	lr: 1.250e-06, eta: 0:00:21, time: 0.174, data_time: 0.055, memory: 2928, loss_ce: 0.2706, loss: 0.2706
+2022-02-04 01:51:36,070 - mmocr - INFO - Epoch [5][80/200]	lr: 1.250e-06, eta: 0:00:16, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2839, loss: 0.2839
+2022-02-04 01:51:40,912 - mmocr - INFO - Epoch [5][120/200]	lr: 1.250e-06, eta: 0:00:10, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2533, loss: 0.2533
+2022-02-04 01:51:45,764 - mmocr - INFO - Epoch [5][160/200]	lr: 1.250e-06, eta: 0:00:05, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2732, loss: 0.2732
+2022-02-04 01:51:50,615 - mmocr - INFO - Epoch [5][200/200]	lr: 1.250e-06, eta: 0:00:00, time: 0.121, data_time: 0.002, memory: 2928, loss_ce: 0.2431, loss: 0.2431
+2022-02-04 01:51:50,699 - mmocr - INFO - Saving checkpoint at 5 epochs
+2022-02-04 01:51:54,390 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:51:54,393 - mmocr - INFO - Epoch(val) [5][1]	0_word_acc: 1.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 01:55:44,442 - mmocr - INFO - Start running, host: root@6814eba80048, work_dir: /mmocr/demo/tutorial_exps
+2022-02-04 01:55:44,444 - mmocr - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) OptimizerHook                      
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2022-02-04 01:55:44,445 - mmocr - INFO - workflow: [('train', 1)], max: 5 epochs
+2022-02-04 01:55:44,447 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-04 01:55:48,060 - mmocr - INFO - Epoch [1][40/50]	lr: 1.250e-04, eta: 0:00:18, time: 0.090, data_time: 0.056, memory: 2928, loss_ctc: 10.5189, loss: 10.5189
+2022-02-04 01:55:48,475 - mmocr - INFO - Saving checkpoint at 1 epochs
+2022-02-04 01:55:49,275 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:55:49,279 - mmocr - INFO - Epoch(val) [1][8]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 0.0000, 0_word_acc_ignore_case_symbol: 0.0000, 0_char_recall: 0.0806, 0_char_precision: 0.1429, 0_1-N.E.D: 0.0533
+2022-02-04 01:55:52,868 - mmocr - INFO - Epoch [2][40/50]	lr: 1.250e-04, eta: 0:00:12, time: 0.089, data_time: 0.056, memory: 2928, loss_ctc: 10.5150, loss: 10.5150
+2022-02-04 01:55:53,296 - mmocr - INFO - Saving checkpoint at 2 epochs
+2022-02-04 01:55:54,053 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:55:54,056 - mmocr - INFO - Epoch(val) [2][8]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 0.0000, 0_word_acc_ignore_case_symbol: 0.0000, 0_char_recall: 0.0968, 0_char_precision: 0.1132, 0_1-N.E.D: 0.0823
+2022-02-04 01:55:57,651 - mmocr - INFO - Epoch [3][40/50]	lr: 1.250e-04, eta: 0:00:08, time: 0.090, data_time: 0.056, memory: 2928, loss_ctc: 10.5044, loss: 10.5044
+2022-02-04 01:55:58,076 - mmocr - INFO - Saving checkpoint at 3 epochs
+2022-02-04 01:55:58,859 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:55:58,863 - mmocr - INFO - Epoch(val) [3][8]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 0.0000, 0_word_acc_ignore_case_symbol: 0.0000, 0_char_recall: 0.0968, 0_char_precision: 0.1200, 0_1-N.E.D: 0.0885
+2022-02-04 01:56:02,462 - mmocr - INFO - Epoch [4][40/50]	lr: 1.250e-04, eta: 0:00:04, time: 0.090, data_time: 0.056, memory: 2928, loss_ctc: 10.4476, loss: 10.4476
+2022-02-04 01:56:02,888 - mmocr - INFO - Saving checkpoint at 4 epochs
+2022-02-04 01:56:03,643 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:56:03,646 - mmocr - INFO - Epoch(val) [4][8]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 0.0000, 0_word_acc_ignore_case_symbol: 0.0000, 0_char_recall: 0.0968, 0_char_precision: 0.1176, 0_1-N.E.D: 0.0823
+2022-02-04 01:56:07,223 - mmocr - INFO - Epoch [5][40/50]	lr: 1.250e-04, eta: 0:00:00, time: 0.089, data_time: 0.056, memory: 2928, loss_ctc: 10.4475, loss: 10.4475
+2022-02-04 01:56:07,648 - mmocr - INFO - Saving checkpoint at 5 epochs
+2022-02-04 01:56:08,386 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 01:56:08,389 - mmocr - INFO - Epoch(val) [5][8]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 0.0000, 0_word_acc_ignore_case_symbol: 0.0000, 0_char_recall: 0.0968, 0_char_precision: 0.1538, 0_1-N.E.D: 0.1010
+2022-02-04 02:08:16,252 - mmocr - INFO - Start running, host: root@6814eba80048, work_dir: /mmocr/demo/tutorial_exps
+2022-02-04 02:08:16,253 - mmocr - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) StepLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) OptimizerHook                      
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2022-02-04 02:08:16,256 - mmocr - INFO - workflow: [('train', 1)], max: 6 epochs
+2022-02-04 02:08:16,258 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-04 02:08:23,608 - mmocr - INFO - Epoch [1][40/100]	lr: 1.250e-04, eta: 0:01:42, time: 0.184, data_time: 0.055, memory: 2928, loss_ce: 0.2314, loss: 0.2314
+2022-02-04 02:08:28,666 - mmocr - INFO - Epoch [1][80/100]	lr: 1.250e-04, eta: 0:01:20, time: 0.126, data_time: 0.002, memory: 2928, loss_ce: 0.0152, loss: 0.0152
+2022-02-04 02:08:31,208 - mmocr - INFO - Saving checkpoint at 1 epochs
+2022-02-04 02:08:34,039 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 02:08:34,043 - mmocr - INFO - Epoch(val) [1][1]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 0.8750, 0_word_acc_ignore_case_symbol: 0.8750, 0_char_recall: 0.9839, 0_char_precision: 1.0000, 0_1-N.E.D: 0.9792
+2022-02-04 02:08:41,165 - mmocr - INFO - Epoch [2][40/100]	lr: 1.250e-04, eta: 0:01:04, time: 0.178, data_time: 0.056, memory: 2928, loss_ce: 0.0053, loss: 0.0053
+2022-02-04 02:08:46,059 - mmocr - INFO - Epoch [2][80/100]	lr: 1.250e-04, eta: 0:00:56, time: 0.122, data_time: 0.002, memory: 2928, loss_ce: 0.0015, loss: 0.0015
+2022-02-04 02:08:48,577 - mmocr - INFO - Saving checkpoint at 2 epochs
+2022-02-04 02:08:51,423 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 02:08:51,426 - mmocr - INFO - Epoch(val) [2][1]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 02:08:58,588 - mmocr - INFO - Epoch [3][40/100]	lr: 1.250e-04, eta: 0:00:47, time: 0.179, data_time: 0.056, memory: 2928, loss_ce: 0.0010, loss: 0.0010
+2022-02-04 02:09:03,653 - mmocr - INFO - Epoch [3][80/100]	lr: 1.250e-04, eta: 0:00:41, time: 0.127, data_time: 0.002, memory: 2928, loss_ce: 0.0007, loss: 0.0007
+2022-02-04 02:09:06,225 - mmocr - INFO - Saving checkpoint at 3 epochs
+2022-02-04 02:09:08,985 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 02:09:08,988 - mmocr - INFO - Epoch(val) [3][1]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 02:09:16,298 - mmocr - INFO - Epoch [4][40/100]	lr: 1.250e-05, eta: 0:00:33, time: 0.183, data_time: 0.055, memory: 2928, loss_ce: 0.0006, loss: 0.0006
+2022-02-04 02:09:21,292 - mmocr - INFO - Epoch [4][80/100]	lr: 1.250e-05, eta: 0:00:28, time: 0.125, data_time: 0.002, memory: 2928, loss_ce: 0.0005, loss: 0.0005
+2022-02-04 02:09:23,839 - mmocr - INFO - Saving checkpoint at 4 epochs
+2022-02-04 02:09:26,651 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 02:09:26,654 - mmocr - INFO - Epoch(val) [4][1]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 02:09:33,822 - mmocr - INFO - Epoch [5][40/100]	lr: 1.250e-06, eta: 0:00:20, time: 0.179, data_time: 0.055, memory: 2928, loss_ce: 0.0006, loss: 0.0006
+2022-02-04 02:09:38,944 - mmocr - INFO - Epoch [5][80/100]	lr: 1.250e-06, eta: 0:00:15, time: 0.128, data_time: 0.002, memory: 2928, loss_ce: 0.0005, loss: 0.0005
+2022-02-04 02:09:41,552 - mmocr - INFO - Saving checkpoint at 5 epochs
+2022-02-04 02:09:44,321 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 02:09:44,324 - mmocr - INFO - Epoch(val) [5][1]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
+2022-02-04 02:09:51,361 - mmocr - INFO - Epoch [6][40/100]	lr: 1.250e-06, eta: 0:00:07, time: 0.176, data_time: 0.055, memory: 2928, loss_ce: 0.0005, loss: 0.0005
+2022-02-04 02:09:56,333 - mmocr - INFO - Epoch [6][80/100]	lr: 1.250e-06, eta: 0:00:02, time: 0.124, data_time: 0.002, memory: 2928, loss_ce: 0.0005, loss: 0.0005
+2022-02-04 02:09:58,876 - mmocr - INFO - Saving checkpoint at 6 epochs
+2022-02-04 02:10:01,623 - mmocr - INFO - 
+Evaluateing tests/data/ocr_toy_dataset/label1.lmdb with 8 images now
+2022-02-04 02:10:01,626 - mmocr - INFO - Epoch(val) [6][1]	0_word_acc: 0.0000, 0_word_acc_ignore_case: 1.0000, 0_word_acc_ignore_case_symbol: 1.0000, 0_char_recall: 1.0000, 0_char_precision: 1.0000, 0_1-N.E.D: 1.0000
