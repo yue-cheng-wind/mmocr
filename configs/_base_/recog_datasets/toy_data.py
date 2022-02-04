@@ -2,8 +2,8 @@ dataset_type = 'OCRDataset'
 
 root = 'tests/data/ocr_toy_dataset'
 img_prefix = f'{root}/imgs1'
-train_anno_file1 = f'{root}/label1.txt'
 
+train_anno_file1 = f'{root}/label1.txt'
 train1 = dict(
     type=dataset_type,
     img_prefix=img_prefix,
