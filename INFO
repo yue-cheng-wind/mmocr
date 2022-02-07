@@ -1,5 +1,5 @@
-2022-02-05 00:29:49,769 - mmocr - INFO - Start running, host: root@23c3f54f719a, work_dir: /mmocr/demo/tutorial_exps
-2022-02-05 00:29:49,770 - mmocr - INFO - Hooks will be executed in the following order:
+2022-02-06 21:08:28,970 - mmocr - INFO - Start running, host: root@2f31371412f6, work_dir: /mmocr/demo/tutorial_exps
+2022-02-06 21:08:28,973 - mmocr - INFO - Hooks will be executed in the following order:
 before_run:
 (VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) CheckpointHook                     
@@ -45,76 +45,120 @@ after_val_epoch:
 after_run:
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
-2022-02-05 00:29:49,772 - mmocr - INFO - workflow: [('train', 1)], max: 1200 epochs
-2022-02-05 00:29:49,773 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
-2022-02-05 00:30:00,479 - mmocr - INFO - Saving checkpoint at 1 epochs
-2022-02-05 00:30:12,680 - mmocr - INFO - Saving checkpoint at 2 epochs
-2022-02-05 00:30:24,624 - mmocr - INFO - Saving checkpoint at 3 epochs
-2022-02-05 00:30:36,781 - mmocr - INFO - Saving checkpoint at 4 epochs
-2022-02-05 00:30:49,021 - mmocr - INFO - Saving checkpoint at 5 epochs
-2022-02-05 00:31:01,312 - mmocr - INFO - Saving checkpoint at 6 epochs
-2022-02-05 00:31:13,780 - mmocr - INFO - Saving checkpoint at 7 epochs
-2022-02-05 00:31:25,524 - mmocr - INFO - Saving checkpoint at 8 epochs
-2022-02-05 00:31:38,360 - mmocr - INFO - Saving checkpoint at 9 epochs
-2022-02-05 00:31:50,262 - mmocr - INFO - Saving checkpoint at 10 epochs
-2022-02-05 00:45:43,013 - mmocr - INFO - 
+2022-02-06 21:08:28,975 - mmocr - INFO - workflow: [('train', 1)], max: 1500 epochs
+2022-02-06 21:08:28,978 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-06 21:09:48,971 - mmocr - INFO - Saving checkpoint at 10 epochs
+2022-02-06 21:10:02,202 - mmocr - INFO - 
 Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
-2022-02-05 00:45:43,015 - mmocr - INFO - Evaluating hmean-iou...
-2022-02-05 00:45:43,021 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:45:43,025 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:45:43,030 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:45:43,034 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:45:43,042 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:45:43,046 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:45:43,052 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:45:43,053 - mmocr - INFO - Epoch(val) [10][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
-2022-02-05 00:45:53,705 - mmocr - INFO - Saving checkpoint at 11 epochs
-2022-02-05 00:46:05,493 - mmocr - INFO - Saving checkpoint at 12 epochs
-2022-02-05 00:46:17,551 - mmocr - INFO - Saving checkpoint at 13 epochs
-2022-02-05 00:46:29,316 - mmocr - INFO - Saving checkpoint at 14 epochs
-2022-02-05 00:46:41,412 - mmocr - INFO - Saving checkpoint at 15 epochs
-2022-02-05 00:46:53,186 - mmocr - INFO - Saving checkpoint at 16 epochs
-2022-02-05 00:47:04,899 - mmocr - INFO - Saving checkpoint at 17 epochs
-2022-02-05 00:47:17,148 - mmocr - INFO - Saving checkpoint at 18 epochs
-2022-02-05 00:47:28,990 - mmocr - INFO - Saving checkpoint at 19 epochs
-2022-02-05 00:47:40,946 - mmocr - INFO - Saving checkpoint at 20 epochs
-2022-02-05 00:56:00,644 - mmocr - INFO - 
+2022-02-06 21:10:02,205 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:10:03,935 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:10:04,901 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:10:05,417 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:10:05,697 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:10:05,873 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:10:05,956 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:10:06,011 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:10:06,014 - mmocr - INFO - Epoch(val) [10][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 21:11:29,746 - mmocr - INFO - Saving checkpoint at 20 epochs
+2022-02-06 21:11:33,172 - mmocr - INFO - 
 Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
-2022-02-05 00:56:00,647 - mmocr - INFO - Evaluating hmean-iou...
-2022-02-05 00:56:00,653 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:56:00,658 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:56:00,662 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:56:00,670 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:56:00,676 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:56:00,682 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:56:00,690 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 00:56:00,692 - mmocr - INFO - Epoch(val) [20][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
-2022-02-05 00:56:11,439 - mmocr - INFO - Saving checkpoint at 21 epochs
-2022-02-05 00:56:23,734 - mmocr - INFO - Saving checkpoint at 22 epochs
-2022-02-05 00:56:35,823 - mmocr - INFO - Saving checkpoint at 23 epochs
-2022-02-05 00:56:48,243 - mmocr - INFO - Saving checkpoint at 24 epochs
-2022-02-05 00:57:00,124 - mmocr - INFO - Saving checkpoint at 25 epochs
-2022-02-05 00:57:11,927 - mmocr - INFO - Saving checkpoint at 26 epochs
-2022-02-05 00:57:23,765 - mmocr - INFO - Saving checkpoint at 27 epochs
-2022-02-05 00:57:35,790 - mmocr - INFO - Saving checkpoint at 28 epochs
-2022-02-05 00:57:47,587 - mmocr - INFO - Saving checkpoint at 29 epochs
-2022-02-05 00:57:59,819 - mmocr - INFO - Saving checkpoint at 30 epochs
-2022-02-05 01:00:32,016 - mmocr - INFO - Start running, host: root@23c3f54f719a, work_dir: /mmocr/demo/tutorial_exps
-2022-02-05 01:00:32,017 - mmocr - INFO - Hooks will be executed in the following order:
+2022-02-06 21:11:33,177 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:11:33,437 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:11:33,521 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:11:33,575 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:11:33,614 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:11:33,641 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:11:33,664 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:11:33,682 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:11:33,683 - mmocr - INFO - Epoch(val) [20][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 21:12:58,456 - mmocr - INFO - Saving checkpoint at 30 epochs
+2022-02-06 21:13:01,356 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 21:13:01,359 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:13:01,539 - mmocr - INFO - thr 0.30, recall: 0.048, precision: 0.059, hmean: 0.053
+2022-02-06 21:13:01,579 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:13:01,605 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:13:01,617 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:13:01,625 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:13:01,632 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:13:01,639 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:13:01,640 - mmocr - INFO - Epoch(val) [30][10]	0_hmean-iou:recall: 0.0476, 0_hmean-iou:precision: 0.0588, 0_hmean-iou:hmean: 0.0526
+2022-02-06 21:14:28,630 - mmocr - INFO - Saving checkpoint at 40 epochs
+2022-02-06 21:14:31,497 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 21:14:31,500 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:14:31,611 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:14:31,639 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:14:31,647 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:14:31,653 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:14:31,662 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:14:31,675 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:14:31,683 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:14:31,684 - mmocr - INFO - Epoch(val) [40][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 21:15:55,333 - mmocr - INFO - Saving checkpoint at 50 epochs
+2022-02-06 21:15:58,562 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 21:15:58,565 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:15:58,830 - mmocr - INFO - thr 0.30, recall: 0.143, precision: 0.071, hmean: 0.095
+2022-02-06 21:15:58,917 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:15:58,944 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:15:58,959 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:15:58,967 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:15:58,973 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:15:58,979 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:15:58,981 - mmocr - INFO - Epoch(val) [50][10]	0_hmean-iou:recall: 0.1429, 0_hmean-iou:precision: 0.0714, 0_hmean-iou:hmean: 0.0952
+2022-02-06 21:17:24,278 - mmocr - INFO - Saving checkpoint at 60 epochs
+2022-02-06 21:17:27,122 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 21:17:27,125 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:17:27,180 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:17:27,207 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:17:27,222 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:17:27,237 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:17:27,254 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:17:27,259 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:17:27,268 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:17:27,270 - mmocr - INFO - Epoch(val) [60][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 21:18:52,324 - mmocr - INFO - Saving checkpoint at 70 epochs
+2022-02-06 21:18:55,281 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 21:18:55,284 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:18:55,471 - mmocr - INFO - thr 0.30, recall: 0.095, precision: 0.074, hmean: 0.083
+2022-02-06 21:18:55,524 - mmocr - INFO - thr 0.40, recall: 0.048, precision: 0.125, hmean: 0.069
+2022-02-06 21:18:55,533 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:18:55,540 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:18:55,549 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:18:55,558 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:18:55,567 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:18:55,569 - mmocr - INFO - Epoch(val) [70][10]	0_hmean-iou:recall: 0.0952, 0_hmean-iou:precision: 0.0741, 0_hmean-iou:hmean: 0.0833
+2022-02-06 21:20:20,460 - mmocr - INFO - Saving checkpoint at 80 epochs
+2022-02-06 21:20:23,694 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 21:20:23,697 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 21:20:23,980 - mmocr - INFO - thr 0.30, recall: 0.048, precision: 0.026, hmean: 0.034
+2022-02-06 21:20:24,074 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:20:24,102 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:20:24,109 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:20:24,117 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:20:24,125 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:20:24,133 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 21:20:24,136 - mmocr - INFO - Epoch(val) [80][10]	0_hmean-iou:recall: 0.0476, 0_hmean-iou:precision: 0.0263, 0_hmean-iou:hmean: 0.0339
+2022-02-06 22:19:20,689 - mmocr - INFO - Start running, host: root@2f31371412f6, work_dir: /mmocr/demo/tutorial_exps
+2022-02-06 22:19:20,692 - mmocr - INFO - Hooks will be executed in the following order:
 before_run:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) CheckpointHook                     
 (NORMAL      ) EvalHook                           
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
 before_train_epoch:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) EvalHook                           
 (LOW         ) IterTimerHook                      
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
 before_train_iter:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) EvalHook                           
 (LOW         ) IterTimerHook                      
  -------------------- 
@@ -146,29 +190,48 @@ after_val_epoch:
 after_run:
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
-2022-02-05 01:00:32,018 - mmocr - INFO - workflow: [('train', 1)], max: 5 epochs
-2022-02-05 01:00:32,021 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
-2022-02-05 01:00:43,945 - mmocr - INFO - Saving checkpoint at 1 epochs
-2022-02-05 01:00:58,022 - mmocr - INFO - Saving checkpoint at 2 epochs
-2022-02-05 01:01:12,439 - mmocr - INFO - Saving checkpoint at 3 epochs
-2022-02-05 01:01:26,710 - mmocr - INFO - Saving checkpoint at 4 epochs
-2022-02-05 01:01:41,100 - mmocr - INFO - Saving checkpoint at 5 epochs
-2022-02-05 01:06:44,731 - mmocr - INFO - Start running, host: root@23c3f54f719a, work_dir: /mmocr/demo/tutorial_exps
-2022-02-05 01:06:44,732 - mmocr - INFO - Hooks will be executed in the following order:
+2022-02-06 22:19:20,693 - mmocr - INFO - workflow: [('train', 1)], max: 1500 epochs
+2022-02-06 22:19:20,695 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-06 22:20:48,932 - mmocr - INFO - Saving checkpoint at 10 epochs
+2022-02-06 22:20:51,798 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 22:20:51,801 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 22:20:51,810 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:20:51,818 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:20:51,827 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:20:51,835 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:20:51,844 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:20:51,851 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:20:51,859 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:20:51,860 - mmocr - INFO - Epoch(val) [10][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 22:22:18,475 - mmocr - INFO - Saving checkpoint at 20 epochs
+2022-02-06 22:22:21,288 - mmocr - INFO - 
+Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
+2022-02-06 22:22:21,291 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 22:22:21,301 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:22:21,310 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:22:21,315 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:22:21,323 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:22:21,332 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:22:21,342 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:22:21,348 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:22:21,350 - mmocr - INFO - Epoch(val) [20][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 22:45:18,076 - mmocr - INFO - Start running, host: root@2f31371412f6, work_dir: /mmocr/demo/tutorial_exps
+2022-02-06 22:45:18,077 - mmocr - INFO - Hooks will be executed in the following order:
 before_run:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) CheckpointHook                     
 (NORMAL      ) EvalHook                           
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
 before_train_epoch:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) EvalHook                           
 (LOW         ) IterTimerHook                      
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
 before_train_iter:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) EvalHook                           
 (LOW         ) IterTimerHook                      
  -------------------- 
@@ -200,25 +263,24 @@ after_val_epoch:
 after_run:
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
-2022-02-05 01:06:44,733 - mmocr - INFO - workflow: [('train', 1)], max: 5 epochs
-2022-02-05 01:06:44,734 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
-2022-02-05 01:06:56,254 - mmocr - INFO - Saving checkpoint at 1 epochs
-2022-02-05 01:07:25,514 - mmocr - INFO - Start running, host: root@23c3f54f719a, work_dir: /mmocr/demo/tutorial_exps
-2022-02-05 01:07:25,515 - mmocr - INFO - Hooks will be executed in the following order:
+2022-02-06 22:45:18,079 - mmocr - INFO - workflow: [('train', 1)], max: 1500 epochs
+2022-02-06 22:45:18,081 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-06 22:46:29,480 - mmocr - INFO - Start running, host: root@2f31371412f6, work_dir: /mmocr/demo/tutorial_exps
+2022-02-06 22:46:29,481 - mmocr - INFO - Hooks will be executed in the following order:
 before_run:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) CheckpointHook                     
 (NORMAL      ) EvalHook                           
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
 before_train_epoch:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) EvalHook                           
 (LOW         ) IterTimerHook                      
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
 before_train_iter:
-(VERY_HIGH   ) StepLrUpdaterHook                  
+(VERY_HIGH   ) PolyLrUpdaterHook                  
 (NORMAL      ) EvalHook                           
 (LOW         ) IterTimerHook                      
  -------------------- 
@@ -250,110 +312,93 @@ after_val_epoch:
 after_run:
 (VERY_LOW    ) TextLoggerHook                     
  -------------------- 
-2022-02-05 01:07:25,516 - mmocr - INFO - workflow: [('train', 1)], max: 50 epochs
-2022-02-05 01:07:25,518 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
-2022-02-05 01:07:37,129 - mmocr - INFO - Saving checkpoint at 1 epochs
-2022-02-05 01:07:50,314 - mmocr - INFO - Saving checkpoint at 2 epochs
-2022-02-05 01:08:03,474 - mmocr - INFO - Saving checkpoint at 3 epochs
-2022-02-05 01:08:16,745 - mmocr - INFO - Saving checkpoint at 4 epochs
-2022-02-05 01:08:29,913 - mmocr - INFO - Saving checkpoint at 5 epochs
-2022-02-05 01:08:43,466 - mmocr - INFO - Saving checkpoint at 6 epochs
-2022-02-05 01:08:56,577 - mmocr - INFO - Saving checkpoint at 7 epochs
-2022-02-05 01:09:09,953 - mmocr - INFO - Saving checkpoint at 8 epochs
-2022-02-05 01:09:23,195 - mmocr - INFO - Saving checkpoint at 9 epochs
-2022-02-05 01:09:36,524 - mmocr - INFO - Saving checkpoint at 10 epochs
-2022-02-05 01:14:58,704 - mmocr - INFO - 
+2022-02-06 22:46:29,483 - mmocr - INFO - workflow: [('train', 1)], max: 1500 epochs
+2022-02-06 22:46:29,484 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.
+2022-02-06 22:46:39,492 - mmocr - INFO - Epoch [1][40/50]	lr: 1.250e-04, eta: 5:11:37, time: 0.249, data_time: 0.150, memory: 15202, loss_text: 679.4496, loss_center: 309.4744, loss_reg_x: 422.6106, loss_reg_y: 439.5608, loss: 1851.0955
+2022-02-06 22:46:50,836 - mmocr - INFO - Epoch [2][40/50]	lr: 1.249e-04, eta: 4:28:26, time: 0.234, data_time: 0.141, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:47:03,254 - mmocr - INFO - Epoch [3][40/50]	lr: 1.249e-04, eta: 4:26:59, time: 0.265, data_time: 0.169, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:47:15,230 - mmocr - INFO - Epoch [4][40/50]	lr: 1.248e-04, eta: 4:20:23, time: 0.243, data_time: 0.147, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:47:27,575 - mmocr - INFO - Epoch [5][40/50]	lr: 1.247e-04, eta: 4:20:15, time: 0.261, data_time: 0.165, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:47:39,593 - mmocr - INFO - Epoch [6][40/50]	lr: 1.246e-04, eta: 4:17:34, time: 0.246, data_time: 0.152, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:47:51,289 - mmocr - INFO - Epoch [7][40/50]	lr: 1.246e-04, eta: 4:15:18, time: 0.244, data_time: 0.150, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:48:03,687 - mmocr - INFO - Epoch [8][40/50]	lr: 1.245e-04, eta: 4:15:29, time: 0.259, data_time: 0.165, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:48:15,662 - mmocr - INFO - Epoch [9][40/50]	lr: 1.244e-04, eta: 4:14:31, time: 0.250, data_time: 0.158, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:48:28,220 - mmocr - INFO - Epoch [10][40/50]	lr: 1.243e-04, eta: 4:14:55, time: 0.262, data_time: 0.170, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:48:30,160 - mmocr - INFO - Saving checkpoint at 10 epochs
+2022-02-06 22:48:32,812 - mmocr - INFO - 
 Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
-2022-02-05 01:14:58,706 - mmocr - INFO - Evaluating hmean-iou...
-2022-02-05 01:14:59,155 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:14:59,600 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:15:00,068 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:15:00,074 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:15:00,080 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:15:00,086 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:15:00,092 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:15:00,093 - mmocr - INFO - Epoch(val) [10][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
-2022-02-05 01:15:11,735 - mmocr - INFO - Saving checkpoint at 11 epochs
-2022-02-05 01:15:25,177 - mmocr - INFO - Saving checkpoint at 12 epochs
-2022-02-05 01:15:38,686 - mmocr - INFO - Saving checkpoint at 13 epochs
-2022-02-05 01:15:52,075 - mmocr - INFO - Saving checkpoint at 14 epochs
-2022-02-05 01:16:05,402 - mmocr - INFO - Saving checkpoint at 15 epochs
-2022-02-05 01:16:18,775 - mmocr - INFO - Saving checkpoint at 16 epochs
-2022-02-05 01:16:32,243 - mmocr - INFO - Saving checkpoint at 17 epochs
-2022-02-05 01:16:45,589 - mmocr - INFO - Saving checkpoint at 18 epochs
-2022-02-05 01:16:58,923 - mmocr - INFO - Saving checkpoint at 19 epochs
-2022-02-05 01:17:12,217 - mmocr - INFO - Saving checkpoint at 20 epochs
-2022-02-05 01:20:39,646 - mmocr - INFO - 
+2022-02-06 22:48:32,815 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 22:48:32,823 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:48:32,830 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:48:32,837 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:48:32,845 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:48:32,851 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:48:32,861 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:48:32,871 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:48:32,872 - mmocr - INFO - Epoch(val) [10][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 22:48:42,738 - mmocr - INFO - Epoch [11][40/50]	lr: 1.243e-04, eta: 4:13:45, time: 0.246, data_time: 0.154, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:48:54,180 - mmocr - INFO - Epoch [12][40/50]	lr: 1.242e-04, eta: 4:12:13, time: 0.239, data_time: 0.147, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:49:05,949 - mmocr - INFO - Epoch [13][40/50]	lr: 1.241e-04, eta: 4:11:18, time: 0.245, data_time: 0.149, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:49:17,915 - mmocr - INFO - Epoch [14][40/50]	lr: 1.240e-04, eta: 4:10:43, time: 0.248, data_time: 0.152, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:49:29,448 - mmocr - INFO - Epoch [15][40/50]	lr: 1.240e-04, eta: 4:09:44, time: 0.241, data_time: 0.148, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:49:40,481 - mmocr - INFO - Epoch [16][40/50]	lr: 1.239e-04, eta: 4:08:06, time: 0.229, data_time: 0.134, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:49:52,270 - mmocr - INFO - Epoch [17][40/50]	lr: 1.238e-04, eta: 4:07:55, time: 0.251, data_time: 0.157, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:50:04,645 - mmocr - INFO - Epoch [18][40/50]	lr: 1.237e-04, eta: 4:08:05, time: 0.257, data_time: 0.161, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:50:16,288 - mmocr - INFO - Epoch [19][40/50]	lr: 1.237e-04, eta: 4:07:12, time: 0.238, data_time: 0.146, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:50:28,546 - mmocr - INFO - Epoch [20][40/50]	lr: 1.236e-04, eta: 4:07:22, time: 0.257, data_time: 0.164, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:50:30,568 - mmocr - INFO - Saving checkpoint at 20 epochs
+2022-02-06 22:50:33,196 - mmocr - INFO - 
 Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
-2022-02-05 01:20:39,649 - mmocr - INFO - Evaluating hmean-iou...
-2022-02-05 01:20:40,413 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:20:41,242 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:20:42,019 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:20:42,025 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:20:42,029 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:20:42,036 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:20:42,041 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:20:42,042 - mmocr - INFO - Epoch(val) [20][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
-2022-02-05 01:20:53,433 - mmocr - INFO - Saving checkpoint at 21 epochs
-2022-02-05 01:21:07,073 - mmocr - INFO - Saving checkpoint at 22 epochs
-2022-02-05 01:21:20,365 - mmocr - INFO - Saving checkpoint at 23 epochs
-2022-02-05 01:21:33,868 - mmocr - INFO - Saving checkpoint at 24 epochs
-2022-02-05 01:21:47,302 - mmocr - INFO - Saving checkpoint at 25 epochs
-2022-02-05 01:22:00,612 - mmocr - INFO - Saving checkpoint at 26 epochs
-2022-02-05 01:22:14,098 - mmocr - INFO - Saving checkpoint at 27 epochs
-2022-02-05 01:22:27,522 - mmocr - INFO - Saving checkpoint at 28 epochs
-2022-02-05 01:22:41,279 - mmocr - INFO - Saving checkpoint at 29 epochs
-2022-02-05 01:22:54,580 - mmocr - INFO - Saving checkpoint at 30 epochs
-2022-02-05 01:26:20,996 - mmocr - INFO - 
+2022-02-06 22:50:33,199 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 22:50:33,208 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:50:33,216 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:50:33,223 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:50:33,232 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:50:33,241 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:50:33,253 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:50:33,262 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:50:33,264 - mmocr - INFO - Epoch(val) [20][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 22:50:43,590 - mmocr - INFO - Epoch [21][40/50]	lr: 1.235e-04, eta: 4:07:31, time: 0.258, data_time: 0.162, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:50:55,860 - mmocr - INFO - Epoch [22][40/50]	lr: 1.234e-04, eta: 4:07:32, time: 0.255, data_time: 0.163, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:51:07,857 - mmocr - INFO - Epoch [23][40/50]	lr: 1.234e-04, eta: 4:07:26, time: 0.253, data_time: 0.159, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:51:19,208 - mmocr - INFO - Epoch [24][40/50]	lr: 1.233e-04, eta: 4:06:42, time: 0.237, data_time: 0.145, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:51:31,051 - mmocr - INFO - Epoch [25][40/50]	lr: 1.232e-04, eta: 4:06:23, time: 0.247, data_time: 0.152, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:51:42,908 - mmocr - INFO - Epoch [26][40/50]	lr: 1.231e-04, eta: 4:06:13, time: 0.250, data_time: 0.157, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:51:54,496 - mmocr - INFO - Epoch [27][40/50]	lr: 1.230e-04, eta: 4:05:49, time: 0.244, data_time: 0.145, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:52:05,676 - mmocr - INFO - Epoch [28][40/50]	lr: 1.230e-04, eta: 4:05:00, time: 0.232, data_time: 0.141, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:52:17,935 - mmocr - INFO - Epoch [29][40/50]	lr: 1.229e-04, eta: 4:05:07, time: 0.258, data_time: 0.162, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:52:30,211 - mmocr - INFO - Epoch [30][40/50]	lr: 1.228e-04, eta: 4:05:01, time: 0.252, data_time: 0.158, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:52:32,041 - mmocr - INFO - Saving checkpoint at 30 epochs
+2022-02-06 22:52:34,722 - mmocr - INFO - 
 Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
-2022-02-05 01:26:20,998 - mmocr - INFO - Evaluating hmean-iou...
-2022-02-05 01:26:21,294 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:26:21,620 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:26:21,922 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:26:21,928 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:26:21,934 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:26:21,938 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:26:21,944 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:26:21,945 - mmocr - INFO - Epoch(val) [30][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
-2022-02-05 01:26:33,495 - mmocr - INFO - Saving checkpoint at 31 epochs
-2022-02-05 01:26:46,999 - mmocr - INFO - Saving checkpoint at 32 epochs
-2022-02-05 01:27:00,303 - mmocr - INFO - Saving checkpoint at 33 epochs
-2022-02-05 01:27:13,890 - mmocr - INFO - Saving checkpoint at 34 epochs
-2022-02-05 01:27:27,190 - mmocr - INFO - Saving checkpoint at 35 epochs
-2022-02-05 01:27:40,563 - mmocr - INFO - Saving checkpoint at 36 epochs
-2022-02-05 01:27:53,833 - mmocr - INFO - Saving checkpoint at 37 epochs
-2022-02-05 01:28:07,125 - mmocr - INFO - Saving checkpoint at 38 epochs
-2022-02-05 01:28:20,371 - mmocr - INFO - Saving checkpoint at 39 epochs
-2022-02-05 01:28:33,665 - mmocr - INFO - Saving checkpoint at 40 epochs
-2022-02-05 01:34:05,683 - mmocr - INFO - 
+2022-02-06 22:52:34,725 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 22:52:34,734 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:52:34,741 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:52:34,748 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:52:34,756 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:52:34,762 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:52:34,770 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:52:34,778 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:52:34,780 - mmocr - INFO - Epoch(val) [30][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 22:52:45,413 - mmocr - INFO - Epoch [31][40/50]	lr: 1.227e-04, eta: 4:05:19, time: 0.265, data_time: 0.170, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:52:56,914 - mmocr - INFO - Epoch [32][40/50]	lr: 1.227e-04, eta: 4:04:45, time: 0.237, data_time: 0.147, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:53:08,372 - mmocr - INFO - Epoch [33][40/50]	lr: 1.226e-04, eta: 4:04:19, time: 0.241, data_time: 0.147, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:53:20,551 - mmocr - INFO - Epoch [34][40/50]	lr: 1.225e-04, eta: 4:04:14, time: 0.253, data_time: 0.158, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:53:32,173 - mmocr - INFO - Epoch [35][40/50]	lr: 1.224e-04, eta: 4:03:46, time: 0.239, data_time: 0.146, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:53:44,094 - mmocr - INFO - Epoch [36][40/50]	lr: 1.224e-04, eta: 4:03:43, time: 0.254, data_time: 0.157, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:53:55,824 - mmocr - INFO - Epoch [37][40/50]	lr: 1.223e-04, eta: 4:03:24, time: 0.244, data_time: 0.147, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:54:07,392 - mmocr - INFO - Epoch [38][40/50]	lr: 1.222e-04, eta: 4:03:01, time: 0.241, data_time: 0.144, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:54:18,998 - mmocr - INFO - Epoch [39][40/50]	lr: 1.221e-04, eta: 4:02:42, time: 0.244, data_time: 0.149, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:54:30,660 - mmocr - INFO - Epoch [40][40/50]	lr: 1.221e-04, eta: 4:02:27, time: 0.245, data_time: 0.151, memory: 15202, loss_text: nan, loss_center: nan, loss_reg_x: nan, loss_reg_y: nan, loss: nan
+2022-02-06 22:54:32,427 - mmocr - INFO - Saving checkpoint at 40 epochs
+2022-02-06 22:54:35,015 - mmocr - INFO - 
 Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
-2022-02-05 01:34:05,685 - mmocr - INFO - Evaluating hmean-iou...
-2022-02-05 01:34:05,736 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:34:05,789 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:34:05,836 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:34:05,842 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:34:05,846 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:34:05,853 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:34:05,858 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:34:05,859 - mmocr - INFO - Epoch(val) [40][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
-2022-02-05 01:34:17,385 - mmocr - INFO - Saving checkpoint at 41 epochs
-2022-02-05 01:34:30,810 - mmocr - INFO - Saving checkpoint at 42 epochs
-2022-02-05 01:34:44,232 - mmocr - INFO - Saving checkpoint at 43 epochs
-2022-02-05 01:34:57,598 - mmocr - INFO - Saving checkpoint at 44 epochs
-2022-02-05 01:35:10,858 - mmocr - INFO - Saving checkpoint at 45 epochs
-2022-02-05 01:35:24,292 - mmocr - INFO - Saving checkpoint at 46 epochs
-2022-02-05 01:35:37,499 - mmocr - INFO - Saving checkpoint at 47 epochs
-2022-02-05 01:35:51,043 - mmocr - INFO - Saving checkpoint at 48 epochs
-2022-02-05 01:36:04,435 - mmocr - INFO - Saving checkpoint at 49 epochs
-2022-02-05 01:36:17,656 - mmocr - INFO - Saving checkpoint at 50 epochs
-2022-02-05 01:40:51,885 - mmocr - INFO - 
-Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
-2022-02-05 01:40:51,887 - mmocr - INFO - Evaluating hmean-iou...
-2022-02-05 01:40:52,305 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:40:52,727 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:40:53,161 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:40:53,166 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:40:53,171 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:40:53,176 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:40:53,180 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
-2022-02-05 01:40:53,182 - mmocr - INFO - Epoch(val) [50][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-06 22:54:35,018 - mmocr - INFO - Evaluating hmean-iou...
+2022-02-06 22:54:35,028 - mmocr - INFO - thr 0.30, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:54:35,034 - mmocr - INFO - thr 0.40, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:54:35,042 - mmocr - INFO - thr 0.50, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:54:35,049 - mmocr - INFO - thr 0.60, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:54:35,056 - mmocr - INFO - thr 0.70, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:54:35,065 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:54:35,071 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
+2022-02-06 22:54:35,073 - mmocr - INFO - Epoch(val) [40][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
