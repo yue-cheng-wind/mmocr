@@ -402,3 +402,52 @@ Evaluateing tests/data/toy_dataset/instances_test.txt with 10 images now
 2022-02-06 22:54:35,065 - mmocr - INFO - thr 0.80, recall: 0.000, precision: 0.000, hmean: 0.000
 2022-02-06 22:54:35,071 - mmocr - INFO - thr 0.90, recall: 0.000, precision: 0.000, hmean: 0.000
 2022-02-06 22:54:35,073 - mmocr - INFO - Epoch(val) [40][10]	0_hmean-iou:recall: 0.0000, 0_hmean-iou:precision: 0.0000, 0_hmean-iou:hmean: 0.0000
+2022-02-07 04:22:14,005 - mmocr - INFO - Start running, host: root@2f31371412f6, work_dir: /mmocr/demo/tutorial_exps
+2022-02-07 04:22:14,007 - mmocr - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) PolyLrUpdaterHook                  
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) PolyLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) PolyLrUpdaterHook                  
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) OptimizerHook                      
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) EvalHook                           
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2022-02-07 04:22:14,009 - mmocr - INFO - workflow: [('train', 1)], max: 1200 epochs
+2022-02-07 04:22:14,014 - mmocr - INFO - Checkpoints will be saved to /mmocr/demo/tutorial_exps by HardDiskBackend.

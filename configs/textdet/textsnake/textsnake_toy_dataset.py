@@ -1,10 +1,5 @@
 _base_ = [
-    # '../../_base_/schedules/schedule_sgd_1200e.py',
-    # change schedules
-    '../../_base_/schedules/schedule_adam_step_5e.py',
-
-    
-
+    '../../_base_/schedules/schedule_sgd_1200e.py',   
     '../../_base_/default_runtime.py',
     '../../_base_/det_models/textsnake_r50_fpn_unet.py',
     # '../../_base_/det_datasets/ctw1500.py',
@@ -16,8 +11,6 @@ _base_ = [
     '../../_base_/det_pipelines/textsnake_pipeline.py'
 ]
 
-#update epoches:
-total_epochs = 50
 
 
 train_list = {{_base_.train_list}}
@@ -27,8 +20,8 @@ train_pipeline = {{_base_.train_pipeline}}
 test_pipeline = {{_base_.test_pipeline}}
 
 data = dict(
-    samples_per_gpu=4,
-    workers_per_gpu=4,
+    samples_per_gpu=1,
+    workers_per_gpu=1,
     val_dataloader=dict(samples_per_gpu=1),
     test_dataloader=dict(samples_per_gpu=1),
     train=dict(
