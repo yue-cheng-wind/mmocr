@@ -1,9 +1,9 @@
 dataset_type = 'OCRDataset'
 
 root = 'tests/data/ocr_toy_dataset'
-img_prefix = f'{root}/imgs1'
+img_prefix = f'{root}/imgs'
 
-train_anno_file1 = f'{root}/label1.txt'
+train_anno_file1 = f'{root}/label.txt'
 train1 = dict(
     type=dataset_type,
     img_prefix=img_prefix,
@@ -19,7 +19,7 @@ train1 = dict(
     pipeline=None,
     test_mode=False)
 
-train_anno_file2 = f'{root}/label1.lmdb'
+train_anno_file2 = f'{root}/label.lmdb'
 train2 = dict(
     type=dataset_type,
     img_prefix=img_prefix,
@@ -35,7 +35,7 @@ train2 = dict(
     pipeline=None,
     test_mode=False)
 
-test_anno_file1 = f'{root}/label1.lmdb'
+test_anno_file1 = f'{root}/label.lmdb'
 test = dict(
     type=dataset_type,
     img_prefix=img_prefix,

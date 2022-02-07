@@ -1,13 +1,14 @@
 _base_ = [
     '../../_base_/default_runtime.py',
-    '../../_base_/recog_models/abinet_toy.py',
     '../../_base_/schedules/schedule_adam_step_20e.py',
     '../../_base_/recog_pipelines/abinet_pipeline.py',
+
+    # modify configuration as in the abinet_toy.py 
+    '../../_base_/recog_models/abinet_toy.py', 
 
     # '../../_base_/recog_datasets/ST_MJ_alphanumeric_train.py', # word level annotation
     # '../../_base_/recog_datasets/academic_test.py'
 
-    # '../../_base_/recog_datasets/toy_data_lmdb.py'
     '../../_base_/recog_datasets/toy_data.py'
 
 ]
@@ -20,8 +21,8 @@ test_pipeline = {{_base_.test_pipeline}}
 
 data = dict(
   # toy data set settings 
-    samples_per_gpu=8,
-    workers_per_gpu=2,
+    samples_per_gpu=192,
+    workers_per_gpu=8,
     val_dataloader=dict(samples_per_gpu=1),
     test_dataloader=dict(samples_per_gpu=1),
     train=dict(
